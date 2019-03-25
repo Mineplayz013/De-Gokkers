@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #272828;
+    color: #ffaf30;
+}
+header{
+    padding: 10px 0;
+    background: #272828;
+    border-bottom: solid;
+    border-bottom-color: #8e9191;
+    border-bottom-width: 1px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+    border-top-color: #8e9191;
+    border-top-width: 1px;
+}
+.form-group{
+    padding: 20px;
+}
+.btn{
+    background-color: #ffaf30;
+    border: none;
+    color: #272828;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
